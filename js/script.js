@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //dynamically insert search form - extra credit;
   const label = document.createElement("label");
   label.for = "search";
-  label.className = "student  // student list-search";
+  label.className = "student-search";
 
   label.innerHTML = `
    <span>Search by name</span>
@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
-
+updateStudentList()
   //end of the domload
 });
