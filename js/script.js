@@ -71,5 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 updateStudentList()
+activeButtons[0].className = "active"; //i know not good practice, but i'll worry about perfecting it later
   //end of the domload
 });
